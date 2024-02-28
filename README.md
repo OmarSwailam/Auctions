@@ -1,6 +1,6 @@
 # Auction
 
-Commerce is an eBay-like e-commerce auction site built using Django, designed to provide users with a platform to buy and sell various items through auctions. Users can create listings, place bids, add items to their watchlist, comment on listings, and browse listings by category.
+Auction is an eBay-like e-commerce auction site built using Django, designed to provide users with a platform to buy and sell various items through auctions. Users can create listings, place bids, add items to their watchlist, comment on listings, and browse listings by category.
 
 [Demonstration video](https://youtu.be/22VuVf8xoaA?si=fr25Zbpk3n7OfPov)
 
