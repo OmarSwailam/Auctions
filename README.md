@@ -1,38 +1,39 @@
-# E-Commerce
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_012651.png)
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_012704.png)
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_012713.png)
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_012900.png)
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_012913.png)
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_012926.png)
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_013050.png)
-![screenshot](https://github.com/OmarSwailam/commerce/blob/master/screenshots/Screenshot_20230106_013118.png)
-using Django and postgresql
+# Auction
 
-Features:
-  - Create item
-  - Read all items
-  - Update item
-  - Delete item
-  - and more..
+Commerce is an eBay-like e-commerce auction site built using Django, designed to provide users with a platform to buy and sell various items through auctions. Users can create listings, place bids, add items to their watchlist, comment on listings, and browse listings by category.
 
-Installation:
-
-    # Clone repository
-
-    # Create a virtualenv(optional)
-      python3 -m venv env
+[Demonstration video](https://youtu.be/22VuVf8xoaA?si=fr25Zbpk3n7OfPov)
 
 
-    # Install all dependencies
-       pip install -r requirements.txt
+## Installation
 
+#### Clone repository
+```
+  git clone https://github.com/OmarSwailam/auctions.git
+```
 
-    # Activate the virtualenv
-      source venv/bin/activate or .venv/bin/activate
+#### Create a virtualenv(optional)
+```
+  python3 -m venv venv
+```
 
-    # Run application
-     ./manage.py runserver or python manage.py runserver
+#### Activate the virtualenv
+```
+  .venv/scripts/activate
+```
+#### Install all dependencies
+```
+   pip install -r requirements.txt
+```
+#### Migrate DB changes
+```
+  python manage.py migrate
+```
+#### Run application
+```
+  python manage.py runserver
+```
+
 
 Author:
   Omar Swailam
